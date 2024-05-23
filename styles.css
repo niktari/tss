@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 10vw;
+    line-height: 0.85;
+    letter-spacing: -0.01em;
+    margin: 30px;
+}
+
+.effect--div {
+    display: inline-block;
+  }
+
+  .effect--span {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .new-letter {
+    font-style: normal;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.75;
+    mix-blend-mode: multiply;
+  }
